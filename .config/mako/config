@@ -1,0 +1,37 @@
+#font=UbuntuMono 12.5
+font=JetBrainsMono Nerd Font 12
+
+# BINDING OPTIONS
+on-button-left=dismiss
+on-button-middle=none
+on-button-right=dismiss-all
+on-touch=dismiss
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+
+#background-color=#404552
+#text-color=#e5e9f0
+width=315
+height=200
+padding=10
+margin=10
+#progress-color=over #eceff480
+#icon-path=/usr/share/icons/Arc-X-D
+icon-path=/usr/share/icons/Papirus-Dark:/home/ron/.config/make/icons/Papirus
+max-icon-size=70
+layer=overlay
+
+background-color=#323c41B3
+text-color=#d3c6aa
+border-color=#2b3339B3
+progress-color=over #94e2d5
+
+border-size=3
+border-radius=0
+#border-color=#5294e2
+
+default-timeout=5000
+
+[urgency=high]
+
+ignore-timeout=1
+
