@@ -1,0 +1,93 @@
+/******************************************************************************
+ * ROFI Color theme
+ * User: SmokeKing
+ * Copyright: Nathaniel Maia
+ ******************************************************************************/
+
+window {
+	width:            30%;
+	height:           25%;
+    padding:          4;
+    border:           4 4 4 4;
+    text-color:       #d3c6aa;
+    background-color: #2b3339;
+    border-color:     #21292f;
+}
+
+prompt {
+    padding:          4;
+	text-color:       #d3c6aa;
+	background-color: #2b3339;
+}
+
+entry {
+    padding:          4;
+    text-color:       #d3c6aa;
+    background-color: #2b3339;
+}
+
+inputbar {
+	children: 		  [ prompt, entry ];
+    padding:          4;
+	border:           0 0 1;
+    text-color:       #d3c6aa;
+    background-color: #2b3339;
+	border-color:     #21292f;
+}
+
+listview {
+    columns:          2;
+    padding:          4;
+    cycle:            false;
+    dynamic:          true;
+    layout:           vertical;
+    background-color: #2b3339;
+}
+
+mainbox {
+    children:         [ inputbar, listview ];
+    background-color: #2b3339;
+}
+
+element {
+    padding:          4;
+    text-color:       #d3c6aa;
+    background-color: #2b3339;
+}
+
+element-icon {
+	padding:          0 4 0;
+    text-color:       inherit;
+    background-color: inherit;
+}
+
+element-text {
+    text-color:       inherit;
+    background-color: inherit;
+}
+
+element normal.urgent, element alternate.urgent {
+    text-color:       #c1c1c1;
+    background-color: #e67e80;
+}
+
+element normal.active, element alternate.active {
+    text-color:       #d3c6aa;
+    background-color: #2b3339;
+}
+
+element selected {
+	text-color:       #2b3339;
+	background-color: #7fbbb3;
+}
+
+element selected.urgent {
+	text-color:       #2b3339;
+	background-color: #e67e80;
+}
+
+element selected.active {
+	text-color:       #d3c6aa;
+	background-color: #2b3339;
+}
+// vim:ft=css
