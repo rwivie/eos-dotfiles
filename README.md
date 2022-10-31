@@ -1,5 +1,8 @@
+
 ## eos-dotfiles
-dots from my EndeavourOS install
+
+dots from my EndeavourOS install.
+
 Just modified the default EndeavourOS sway config.
 
 ![Screenshot](screenshot.png?raw=true)
